@@ -1,0 +1,27 @@
+/** @format */
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-black {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+
+  color: var(--second-title-color);
+}
+
+.logo-white {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: var(--first-title-color);
+}

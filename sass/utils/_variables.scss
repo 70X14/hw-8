@@ -1,0 +1,39 @@
+/** @format */
+
+:root {
+  --first-title-color: #ffffff;
+  --second-title-color: #212121;
+  --first-text-color: #757575;
+  --second-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --first-btn-color: #ffffff;
+  --first-body-background-color: #ffffff;
+  --second-body-background-color: #2f303a;
+  --third-body-background-color: #f5f4fa;
+  --fourth-body-background-color: #e5e5e5;
+  --background-btn-color: #1976d2;
+  --shade: #eeeeee;
+  --header-border: #ececec;
+  --icons: #afb1b8;
+  --modal-close: #f0000000;
+}
+
+.body-background-first {
+  border-color: var(--first-body-background-color);
+  font-style: unset;
+}
+
+.body-background-second {
+  background-color: var(--second-body-background-color);
+  font-style: unset;
+}
+
+.body-background-third {
+  background-color: var(--third-body-background-color);
+  font-style: unset;
+}
+
+// .body-background4 {
+// 	background-color: var(--fourth-body-background-color);
+// 	font-style: unset;
+// }
