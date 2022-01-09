@@ -1634,12 +1634,6 @@ input[type="email"]::placeholder {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--first-title-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 /** @format */
