@@ -32,3 +32,10 @@
   position: relative;
   bottom: 73px;
 }
+
+.opportunities__adapt-visibility {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}

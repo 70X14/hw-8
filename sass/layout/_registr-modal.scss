@@ -24,14 +24,19 @@
 }
 
 .modal {
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  min-height: 609px;
   background-color: var(--first-body-background-color);
   border-radius: 4px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    min-height: 581px;
+  }
 }
 
 .modal__close {
@@ -90,7 +95,6 @@
 }
 
 .modal__online-form__lable {
-  width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -123,7 +127,6 @@
 }
 
 .modal__online-form__lable-comment {
-  width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -139,12 +142,16 @@
 }
 
 .modal__online-form__checkbox-label__text-accept {
-  font-size: 14px;
-  line-height: 1.71;
-
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 
   color: var(--first-text-color);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal__online-form__checkbox-label__text-accept-link {

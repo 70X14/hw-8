@@ -47,30 +47,96 @@
           </ul>
         </nav>
         <div class="header__connect">
-          <ul class="list header__list">
-            <li class="header__item">
+          <ul class="list header__list-nav">
+            <li class="header__item-nav">
               <a class="link header__link-inf" href="mailto:info@devstudio.com">
                 <div class="mail.item">
                   <svg class="header__icon" width="16" height="12">
                     <use
-                      href="./images/anicons.svg#icon-envelope-hover-1"
+                      href="./images/svg/anicons.svg#icon-envelope-hover-1"
                     ></use>
                   </svg>
                 </div>
                 info@devstudio.com
               </a>
             </li>
-            <li class="header__item">
+            <li class="header__item-nav">
               <a class="link header__link-inf" href="tel:+380961111111">
                 <div class="mail.item">
                   <svg class="header__icon" width="10" height="16">
-                    <use href="./images/anicons.svg#icon-smartphone-1"></use>
+                    <use
+                      href="./images/svg/anicons.svg#icon-smartphone-1"
+                    ></use>
                   </svg>
                 </div>
                 +38 096 111 11 11</a
               >
             </li>
           </ul>
+        </div>
+        <button type="button" class="burger__open-icon">
+          <svg class="burger__icon" width="24" height="16">
+            <use href="./images/svg/icons.svg#icon-menu_40px-1"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="burger__menu is-hidden">
+        <div class="container">
+          <div class="burger__menu-top">
+            <button type="button" class="burger__close-icon">
+              <svg class="burger__icon" width="19" height="19">
+                <use href="./images/svg/icons.svg#icon-close_40px-1"></use>
+              </svg>
+            </button>
+            <ul class="list burger__list-link">
+              <li class="burger__item-link">
+                <a class="link burger__link" href="./index.html">Студия</a>
+              </li>
+              <li class="burger__item-link">
+                <a
+                  class="link burger__link burger__current-link"
+                  href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="burger__item-link">
+                <a class="link burger__link" href="">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="burger__menu-bottom">
+            <div class="burger__connect">
+              <ul class="list burger__list">
+                <li class="burger__item-link">
+                  <a class="link burger__link-tel" href="tel:+380961111111">
+                    +38 096 111 11 11</a
+                  >
+                </li>
+                <li class="burger__item">
+                  <a
+                    class="link burger__link-mail"
+                    href="mailto:info@devstudio.com"
+                  >
+                    info@devstudio.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="burger__social-list">
+              <li class="burger__social-item">
+                <a href="" class="burger__social-link">Instagram</a>
+              </li>
+              <li class="burger__social-item">
+                <a href="" class="burger__social-link">Twitter</a>
+              </li>
+              <li class="burger__social-item">
+                <a href="" class="burger__social-link">Facebook</a>
+              </li>
+              <li class="burger__social-item">
+                <a href="" class="burger__social-link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -105,7 +171,7 @@
             <a class="link" href="">
               <div class="information__item__toptext">
                 <img
-                  src="./images/pc.jpg"
+                  src="./images/portfolio/pc-pc-1x.jpg"
                   alt="Ноутбук с сайтом"
                   width="370"
                   style="display: block; max-width: 100%; height: auto"
@@ -126,7 +192,7 @@
             <a class="link" href="">
               <div class="information__item__toptext">
                 <img
-                  src="./images/sport.jpg"
+                  src="./images/portfolio/sport-pc-1x.jpg"
                   alt="Два баскетболиста"
                   width="370"
                   style="display: block; max-width: 100%; height: auto"
@@ -149,7 +215,7 @@
             <a class="link" href="">
               <div class="information__item__toptext">
                 <img
-                  src="./images/rest-sea.jpg"
+                  src="./images/portfolio/rest-sea-pc-1x.jpg"
                   alt="Эмблема ресторана"
                   width="370"
                   style="display: block; max-width: 100%; height: auto"
@@ -172,7 +238,7 @@
             <a class="link" href=""
               ><div class="information__item__toptext">
                 <img
-                  src="./images/headphones.jpg"
+                  src="./images/portfolio/headphones-pc-1x.jpg"
                   alt="Полноразмерные наушники"
                   width="370"
                   style="display: block; max-width: 100%; height: auto"
@@ -195,7 +261,7 @@
             <a class="link" href=""
               ><div class="information__item__toptext">
                 <img
-                  src="./images/boxes.jpg"
+                  src="./images/portfolio/boxes-pc-1x.jpg"
                   alt="Две коробки"
                   width="370"
                   style="display: block; max-width: 100%; height: auto"
@@ -218,7 +284,7 @@
             <a class="link" href=""
               ><div class="information__item__toptext">
                 <img
-                  src="./images/monitor.jpg"
+                  src="./images/portfolio/monitor-pc-1x.jpg"
                   alt="Черный компьютер епл"
                   width="370"
                   style="display: block; max-width: 100%; height: auto"
@@ -240,7 +306,11 @@
           <li class="information__item">
             <a class="link" href=""
               ><div class="information__item__toptext">
-                <img src="./images/book.jpg" alt="Книга" width="370" />
+                <img
+                  src="./images/portfolio/book-pc-1x.jpg"
+                  alt="Книга"
+                  width="370"
+                />
                 <p class="information__item__toptext-description">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -259,7 +329,7 @@
             <a class="link" href=""
               ><div class="information__item__toptext">
                 <img
-                  src="./images/embl.jpg"
+                  src="./images/portfolio/embl-pc-1x.jpg"
                   alt="Бирка с текстом"
                   width="370"
                   style="display: block; max-width: 100%; height: auto"
@@ -280,7 +350,7 @@
             <a class="link" href="">
               <div class="information__item__toptext">
                 <img
-                  src="./images/work.jpg"
+                  src="./images/portfolio/work-pc-1x.jpg"
                   alt="Мужчина работает на ноутбуке"
                   width="370"
                   style="display: block; max-width: 100%; height: auto"
@@ -334,28 +404,28 @@
             <li class="footer__social-item">
               <a href="" class="footer__social-link">
                 <svg class="footer__social-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                  <use href="./images/svg/icons.svg#icon-instagram-2-1"></use>
                 </svg>
               </a>
             </li>
             <li class="footer__social-item">
               <a href="" class="footer__social-link">
                 <svg class="footer__social-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-twitter-1-1"></use>
+                  <use href="./images/svg/icons.svg#icon-twitter-1-1"></use>
                 </svg>
               </a>
             </li>
             <li class="footer__social-item">
               <a href="" class="footer__social-link">
                 <svg class="footer__social-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-facebook-1-1"></use>
+                  <use href="./images/svg/icons.svg#icon-facebook-1-1"></use>
                 </svg>
               </a>
             </li>
             <li class="footer__social-item">
               <a href="" class="footer__social-link">
                 <svg class="footer__social-icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                  <use href="./images/svg/icons.svg#icon-linkedin-1-1"></use>
                 </svg>
               </a>
             </li>
@@ -377,12 +447,13 @@
             <button type="submit" class="online-form__btn">
               Подписаться
               <svg class="online-form__icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-icon-send"></use>
+                <use href="./images/svg/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
           </form>
         </div>
       </div>
     </footer>
+    <script src="./js/burger.js"></script>
   </body>
 </html>

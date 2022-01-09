@@ -10,9 +10,15 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-right: 93px;
+  margin-right: 88px;
 
   color: var(--second-title-color);
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 }
 
 .logo-white {
@@ -20,8 +26,10 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
   letter-spacing: 0.03em;
-
   color: var(--first-title-color);
+  @media screen and(min-width: 768px) {
+  }
+  @media screen and(min-width: 1200px) {
+  }
 }
